@@ -2,4 +2,4 @@
 
 ## Femme
 
-Welcome keen young minds, James here and **this** is Femme.
+Welcome keen young minds, Dani here and **this** is Femme.
