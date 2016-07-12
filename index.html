@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bursary Finder</title>
+    <title>Femme</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,14 +28,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Bursary Finder</a>
+          <a class="navbar-brand" href="index.html">Femme</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="bursaries.html">Bursaries</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
             <li><a href="about.html">About</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -46,16 +46,15 @@
     <div class="container-fluid">
       <div class="row">
         <div style="text-align:center">
-          <h1>Bursary Finder</h1>
-          <p>Find the ideal bursary for your future</p>
+          <h1>Femme</h1>
+          <p>Learn about yourself to love yourself</p>
           <!-- Start of search bar -->
           <div class="col-sm-6 col-sm-offset-3">
-            <form method="get" action="searchBursaries.html">
+            <form method="get" action="cycle.html">
               <div class="input-group">
-                <input name="search" type="text" class="form-control" placeholder="Search for...">
-                <span class="input-group-btn">
-                  <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
-                </span>
+                <input class="form-control" type="number" name="current" placeholder="Days since latest period start">
+                <input class="form-control"  type="number" name="last" placeholder="Days since previous period start">
+                <button class="btn btn-default" type="submit" name="submit">Understand Cycle</button>
               </div>
             </form>
           </div>

@@ -10,20 +10,3 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-//takes each bursary in an array (the careers array or the searchResults array) and renders them in the DOM
-function renderBursariesList(element, index, array) {
-
-  var listItem = document.createElement("div");
-  listItem.className = "listItem";
-
-  var heading = document.createElement("h3");
-  var link = document.createElement("a");
-  link.href = "single.html?index="+index;
-  var text = document.createTextNode(element.BursaryName);
-  link.appendChild(text);
-  heading.appendChild(link);
-  listItem.appendChild(heading);
-
-  var content = document.getElementById("content");
-  content.appendChild(listItem);
-}

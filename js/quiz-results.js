@@ -1,0 +1,1 @@
+alert(getParameterByName('question1'));

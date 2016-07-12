@@ -1,12 +1,12 @@
-# Code4CapeTown Grade 10 Bursary Finder Project
+# Code4CapeTown Grade 10 Femme Project
 
-## Bursary Finder
+## Femme
 
-Welcome keen young minds, James here and **this** is Bursary Finder.
+Welcome keen young minds, James here and **this** is Femme.
 
-### What is Bursary Finder
+### What is Femme
 
-Bursary Finder is designed to help people learn more about what bursaries are out there for them and how to get there. This is a template for you to build around and play with, ideally allowing you to build something you are proud of more easily and allowing you to focus on the tools you have aquired recently.
+Femme is designed to help people learn more about what bursaries are out there for them and how to get there. This is a template for you to build around and play with, ideally allowing you to build something you are proud of more easily and allowing you to focus on the tools you have aquired recently.
 
 ### What must you do?
 
